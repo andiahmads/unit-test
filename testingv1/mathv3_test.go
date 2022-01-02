@@ -33,3 +33,15 @@ func TestLuasSegitigav3(t *testing.T) {
 		assert.Equal(t, 20, hitung2)
 	})
 }
+
+func TestAdd(t *testing.T) {
+	t.Run("negative case", func(t *testing.T) {
+		n := add(-1, -2)
+		assert.Equal(t, -3, n)
+	})
+
+	t.Run("positive case", func(t *testing.T) {
+		n := add(1, -2)
+		assert.Equal(t, -1, n)
+	})
+}

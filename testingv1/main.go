@@ -12,3 +12,7 @@ func LuasSegitiga(p int, l int) int {
 	var luas = l
 	return panjang * luas
 }
+
+func add(a int, b int) int {
+	return a + b
+}
