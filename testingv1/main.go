@@ -13,6 +13,6 @@ func LuasSegitiga(p int, l int) int {
 	return panjang * luas
 }
 
-func add(a int, b int) int {
+func add(a, b int) int {
 	return a + b
 }
