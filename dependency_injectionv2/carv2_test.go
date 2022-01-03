@@ -46,6 +46,7 @@ func TestTurboEngine_MaxSpeed(t *testing.T) {
 	}
 }
 
+// TODO:double test
 type FakeEngine struct{}
 
 func (e FakeEngine) MaxSpeed() int {
