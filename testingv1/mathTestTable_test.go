@@ -37,7 +37,7 @@ func TestAdd_WithTestTable(t *testing.T) {
 			name:     "positve & positive",
 			a:        1,
 			b:        1,
-			expected: 3,
+			expected: 2,
 		},
 
 		{
