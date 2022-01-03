@@ -17,7 +17,8 @@ type Car struct {
 
 func (c Car) Speed() int {
 	defaultSpeed := 100
-	if c.Speeder.MaxSpeed() < 10{
+	//todo: fake Test
+	if c.Speeder.MaxSpeed() < 10 {
 		return 20
 	}
 	if defaultSpeed > c.Speeder.MaxSpeed() {
