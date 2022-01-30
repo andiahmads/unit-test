@@ -1,0 +1,19 @@
+-============================APA ITU MOCK===========================================================================
+mock adalah object yg sudah kita program dengan ekspektasi tertentu sehingga
+kita panggil, dia kan menghasilkan data yang sudah kita program diawal.
+mock adalah salah satu teknik dalam unit testing, dimana kita bisa membuat mock object dari suatu object.
+yg memang sulit untuk ditesting.
+contoh case yaitu, kita mau membuat sebuah test function yang harus memanggil api call ke third party service
+hal ini sangat sulit untuk ditest, karena unit testing kita harus selalu memanggil third party service, dan sebelum
+responsenya sesuai dengan apa yang kita mau.
+pada case seperti ini sangat cocok sekali menggunakan mock.
+-=================================================================================================================
+
+
+
+===============================Testify Mock========================================================================
+untuk membuat mock object, tidak ada fitur bawaan dari Golang, namun kita bisa menggunakan library testify.
+testify mendukung pembuatan mock object, sehinga cocok untuk kita gunakan ketika ingin membuat mock object.
+perlu diperhatikan, jika design kode program kita jelek, akan sulit melakukan mocking, jadi pastikan kita membuat
+design code dengan benar.
+====================================================================================================================
